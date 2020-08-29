@@ -33,9 +33,10 @@ end
     hash_genres = Hash.new(0)
     @@genres.each do |g|
       hash_genres[g] +=1 
-      binding.pry
+     
     end
     hash_genres
+     binding.pry
   end
   
   def self.artist_count
